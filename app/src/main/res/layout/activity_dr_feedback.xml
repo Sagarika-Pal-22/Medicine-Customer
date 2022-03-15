@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nestedScroll"
+    tools:context=".Activity.DrFeedbackActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Leave Your Feedback"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:layout_marginStart="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content">
+
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="20dp"
+                android:layout_width="120dp"
+                android:layout_margin="10dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/dr_profile_image"
+                    android:layout_height="match_parent"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:autoSizeTextType="uniform"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold"
+                    android:autoSizeMaxTextSize="22sp"
+                    android:id="@+id/dr_name"
+                    android:autoSizeMinTextSize="16sp"
+                    android:text="Dr. Name"
+                    android:layout_height="35dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:text="Physician"
+                    android:id="@+id/dr_type"
+                    android:layout_height="wrap_content"/>
+
+                <RatingBar
+                    style="@style/Widget.AppCompat.RatingBar.Indicator"
+                    android:layout_width="wrap_content"
+                    android:numStars="5"
+                    android:rating="3"
+                    android:theme="@style/customRatingBar"
+                    android:id="@+id/dr_rating"
+                    android:isIndicator="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#8092979B"/>
+
+
+        <RatingBar
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:theme="@style/customRatingBar"
+            android:id="@+id/give_rating"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="end"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="Write your feedback"
+                android:gravity="top"
+                android:padding="10dp"
+                android:id="@+id/rev_et"
+                android:background="@drawable/edit_bg3"
+                android:layout_height="150dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:background="@drawable/bt_bg2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="2dp"
+                android:text="Submit"
+                android:id="@+id/submit_bt"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:paddingEnd="30dp"
+                android:paddingBottom="13dp"
+                android:paddingTop="13dp"
+                android:paddingStart="30dp"
+                android:textSize="18sp"
+                android:backgroundTint="@color/colorPrimaryDark1"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+       <!-- <Button
+            android:id="@+id/btn_uploadPrescription"
+            android:layout_width="match_parent"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/bt_bg2"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="25dp"
+            android:text="Upload Prespcription"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:paddingEnd="30dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:paddingStart="30dp"
+            android:textSize="18sp"
+            android:backgroundTint="#d71414"
+            android:layout_height="wrap_content"/>-->
+
+        <Button
+            android:id="@+id/btn_downloadPrescription"
+            android:layout_width="match_parent"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/bt_bg2"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="25dp"
+            android:text="Download Prespcription"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:paddingEnd="30dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:paddingStart="30dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

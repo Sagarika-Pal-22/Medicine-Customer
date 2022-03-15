@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:backgroundTint="@color/colorLightGrey2"
+    android:background="@drawable/custm_corner_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+ <LinearLayout
+     android:padding="5dp"
+     android:weightSum="0"
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <ImageView
+         android:layout_gravity="center"
+         android:layout_weight="0"
+         android:id="@+id/image_cus_not"
+         android:src="@drawable/ic_logo"
+         android:layout_width="60dp"
+         android:layout_height="60dp"/>
+     <LinearLayout
+         android:gravity="center"
+         android:layout_margin="5dp"
+         android:layout_gravity="center"
+         android:layout_weight="1"
+         android:orientation="vertical"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+        <TextView
+            android:text="MRC NOTIFICATION"
+            android:id="@+id/title_cus_not"
+            android:padding="2dp"
+            android:layout_gravity="center"
+            android:gravity="center|start"
+            android:textStyle="bold|italic"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+         <TextView
+             android:text="@string/action_search"
+             android:id="@+id/text_cus_not"
+             android:padding="2dp"
+             android:layout_gravity="center"
+             android:gravity="center|start"
+             android:textStyle="italic"
+             android:textSize="12sp"
+             android:textColor="@color/colorGrey"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+     </LinearLayout>
+     <TextView
+         android:textAppearance="@style/TextAppearance.Compat.Notification.Time"
+         android:id="@+id/time_custPushNotification"
+         android:layout_gravity="center"
+         android:layout_weight="0"
+         android:padding="2dp"
+         android:gravity="center"
+         android:text="12:03 PM"
+         android:textSize="10sp"
+         android:textColor="@color/colorGrey"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+ </LinearLayout>
+</LinearLayout>

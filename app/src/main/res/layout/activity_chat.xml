@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ChatActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tb_bg1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:title="MRC Expert"
+        app:titleTextColor="@color/colorTextWhite"
+        app:subtitleTextColor="@color/colorTextWhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="#FBFBFB"
+        android:layout_height="match_parent">
+
+      <co.intentservice.chatui.ChatView
+          android:layout_width="match_parent"
+          android:id="@+id/chat_view"
+          app:bubbleBackgroundRcv="@color/colorPrimaryDark"
+          android:layout_height="match_parent"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_marginBottom="-5dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/progress"/>
+
+
+</FrameLayout>

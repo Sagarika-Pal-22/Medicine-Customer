@@ -1,0 +1,90 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+    defaultConfig {
+        applicationId "myrehabcare.in"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 7
+        versionName "1.6"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+
+    implementation 'com.github.jd-alexander:LikeButton:0.2.3'
+
+    implementation 'com.github.timigod:android-chat-ui:v0.1.4'
+
+    implementation 'com.android.volley:volley:1.1.1'
+
+    implementation 'com.github.dhaval2404:imagepicker:1.7.5'
+
+
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.1.0'
+    implementation 'com.google.android.libraries.places:places:2.4.0'
+
+    implementation 'com.github.mancj:MaterialSearchBar:0.8.2'
+
+    implementation "com.squareup.okhttp3:okhttp:4.9.0"
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.razorpay:checkout:1.5.16'
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment:2.3.1'
+    implementation 'androidx.navigation:navigation-ui:2.3.1'
+    implementation 'com.google.firebase:firebase-database:19.5.1'
+    implementation 'com.google.firebase:firebase-messaging:21.0.0'
+    //Start Quick Blox For Audio and Video
+    implementation "com.quickblox:quickblox-android-sdk-messages:3.9.2"
+    implementation "com.quickblox:quickblox-android-sdk-chat:3.9.2"
+    implementation "com.quickblox:quickblox-android-sdk-content:3.9.2"
+    implementation "com.quickblox:quickblox-android-sdk-videochat-webrtc:3.9.2"
+    implementation "com.quickblox:quickblox-android-sdk-conference:3.9.2"
+    implementation "com.quickblox:quickblox-android-sdk-customobjects:3.9.2"
+    implementation "com.google.android.gms:play-services-gcm:17.0.0"
+    testImplementation 'junit:junit:4.13.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.karumi:dexter:5.0.0'
+    implementation 'com.github.JakeWharton:ViewPagerIndicator:2.4.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+}
+repositories {
+    mavenCentral()
+}

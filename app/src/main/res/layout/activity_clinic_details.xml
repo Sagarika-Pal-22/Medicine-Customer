@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ClinicDetailsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="my dental clinic"
+            android:textColor="@color/colorPrimaryDark2"
+            android:textSize="22sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/clinic_name"
+            android:textStyle="bold"
+            android:layout_marginEnd="2dp"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="130dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:id="@+id/clinic_image"
+                android:layout_height="match_parent"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Address"
+            android:textColor="@color/colorPrimaryDark2"
+            android:textSize="16sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="M-104, Sai building, Mulund west, Mumbai-67"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:id="@+id/clinic_address"
+            android:drawablePadding="10dp"
+            android:paddingStart="10dp"
+            android:drawableStart="@drawable/ic_place_red"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Visiting Hours"
+            android:textColor="@color/colorPrimaryDark2"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="10:00 am - 6:00pm"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:drawablePadding="10dp"
+            android:id="@+id/clinic_visiting_hours"
+            android:paddingStart="10dp"
+            android:drawableStart="@drawable/ic_place_red"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Doctors"
+            android:textColor="@color/colorPrimaryDark2"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Jatin Kulkarni, Raj Shah"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:drawablePadding="10dp"
+            android:paddingStart="10dp"
+            android:id="@+id/clinic_doctors"
+            android:drawableStart="@drawable/ic_place_red"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:drawableTint="@color/white"
+            android:paddingLeft="15dp"
+            android:drawableLeft="@drawable/ic_phone_call"
+            android:layout_width="match_parent"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:paddingTop="15dp"
+            android:background="@drawable/bt_bg2"
+            android:id="@+id/clinic_call"
+            android:paddingBottom="15dp"
+            android:backgroundTint="#153874"
+            android:text="Call Clinic"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:id="@+id/clinic_book_appointment"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bt_bg2"
+            android:backgroundTint="#153874"
+            android:text="Book Appointment"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.FormActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Please Fill the form below"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/colorTextPrimary"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/name_et"
+                android:maxLength="40"
+                android:inputType="text"
+                android:layout_marginStart="30dp"
+                android:hint="Patient's Name"
+                android:paddingStart="30dp"
+                android:background="@drawable/et_bg1"
+                android:layout_height="55dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:id="@+id/age_et"
+                android:inputType="number"
+                android:maxLength="5"
+                android:hint="Patient's Age"
+                android:paddingStart="30dp"
+                android:background="@drawable/et_bg1"
+                android:layout_height="55dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:hint="Patient's Gender"
+                android:inputType="text"
+                android:maxLength="20"
+                android:id="@+id/gender_et"
+                android:paddingStart="30dp"
+                android:background="@drawable/et_bg1"
+                android:layout_height="55dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:hint="Patient's Problem\n(Min 10 words)"
+                android:paddingStart="30dp"
+                android:inputType="textMultiLine"
+                android:maxLines="50"
+                android:gravity="top"
+                android:id="@+id/problem_et"
+                android:minHeight="180dp"
+                android:paddingTop="18dp"
+                android:background="@drawable/et_bg1"
+                android:layout_height="wrap_content"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:hint="Full Address With Landmark"
+                android:paddingStart="30dp"
+                android:inputType="textMultiLine"
+                android:maxLines="50"
+                android:gravity="top"
+                android:id="@+id/address_et"
+                android:minHeight="80dp"
+                android:paddingTop="18dp"
+                android:background="@drawable/et_bg1"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:clickable="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="53dp"
+                        android:inputType="none"
+                        android:singleLine="true"
+                        android:autoSizeTextType="uniform"
+                        android:background="@null"
+                        android:hint="Upload Prescription"
+                        android:paddingStart="0dp"/>
+
+
+                    <Button
+                        android:id="@+id/upload_bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:paddingHorizontal="30dp"
+                        android:background="@drawable/bt_bg1"
+                        android:text="Upload"
+                        android:textAllCaps="false"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorWhite" />
+
+
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:id="@+id/im1"
+                    android:scaleType="centerCrop"
+                    android:layout_height="100dp"
+                    android:layout_weight="0" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_marginStart="30dp"
+                android:id="@+id/checkbox"
+                android:layout_marginEnd="30dp"
+                android:theme="@style/customCheckBox"
+                android:layout_marginTop="20dp"
+                android:text="I/Patient (or Attender) hereby give consent to the Assessment, Treatment and care Plan by the Doctor(s)/Professional(s) from &quot;My Rehab Care&quot;."
+                android:layout_height="wrap_content"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Immediate Visit"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:enabled="false"
+                android:id="@+id/ImmediateVisit"
+                android:layout_marginStart="40dp"
+                android:background="@drawable/bt_bg2_light"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                android:text="Schedule Visit"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="18sp"
+                android:enabled="false"
+                android:id="@+id/ScheduleVisit"
+                android:textAllCaps="false"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="40dp"
+                android:background="@drawable/bt_bg2_red_light"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

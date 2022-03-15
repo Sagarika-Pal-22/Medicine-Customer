@@ -1,0 +1,284 @@
+<resources>
+    <string name="app_name">MRC Customer</string>
+    <string name="sender_id">89182833555</string>
+    <string name="baseUrl">https://mrcadmin.in/</string>
+    <string name="title_activity_dr_profile">DrProfileActivity</string>
+
+
+    <string name="MapKey">AIzaSyCi48ShHGCNfgxzZ1TcijYFVnYWvxYK4O0</string>
+
+    <!--    AIzaSyCf-ksXOwblWpS5F5sAIKBVwtS48nABkhQ  -->
+
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_dr_feedback">DrFeedbackActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--
+    start quick blox audio video string file...
+-->
+    <string name="action_settings">Settings</string>
+    <string name="reset">Reset</string>
+    <string name="tapToRecordYourVoice">Tap To Record Your Voice</string>
+    <string name="yourRecordingSave">Your recording saved on your phone storage.</string>
+    <string name="notification_title">You have an active call</string>
+    <string name="notification_text">Touch takes you back to the call %1$s</string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="also_on_call">Also on call:</string>
+    <string name="user_list_on_call">User 1, User 2, User 3, User 4, User 5, User 6</string>
+    <string name="subtitle_text_logged_in_as">Logged in as %s</string>
+    <string name="opponent_pending">Pending</string>
+    <string name="opponent_closed">Closed</string>
+    <string name="text_incoming_audio_call">Incoming Audio Call</string>
+    <string name="text_incoming_video_call">Incoming Video Call</string>
+    <string name="text_status_connect">Connect…</string>
+    <string name="text_status_checking">Checking…</string>
+    <string name="text_status_connected">Connected</string>
+    <string name="text_status_disconnected">Disconnected</string>
+
+    <string name="text_status_rejected">Rejected</string>
+    <string name="text_status_no_answer">No answer</string>
+    <string name="text_status_hang_up">Hung up</string>
+    <string name="text_status_closed">Closed</string>
+    <string name="text_status_time_out">Time Out</string>
+    <string name="text_status_failed">Failed</string>
+    <string name="opponents">and %s other</string>
+    <string name="opponent">and %s </string>
+    <string name="ringing">Ringing</string>
+    <string name="stop_share">Stop</string>
+    <string name="camera_swicth_failed">\"Failed switch camera\"</string>
+    <!-- menu -->
+    <string name="action_start_login">Done</string>
+    <string name="action_screen_share">Screen share</string>
+    <string name="action_update_opponens_list">Update opponents list</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_start_video_call">Video call</string>
+    <string name="action_start_audio_call">Audio call</string>
+    <string name="action_dialogs_app_info">App Info</string>
+    <!-- Dialogs strings -->
+    <string name="dlg_signal_error">Disconnected… Please check your Internet connection!</string>
+    <string name="dlg_relogin_wait">You are still connecting.. Please try once more</string>
+    <string name="dlg_login">Login…</string>
+    <string name="dlg_sign_in">Sign In…</string>
+    <string name="dlg_updating_user">Updating user…</string>
+    <string name="dlg_creating_new_user">Creating new user…</string>
+    <string name="dlg_logout">Logout…</string>
+    <string name="dlg_loading_opponents">Loading opponents…</string>
+    <string name="dlg_retry">Retry</string>
+    <string name="dlg_allow">Allow</string>
+    <string name="login_chat_retry">Trying Relogin. Please wait a moment</string>
+    <string name="error">Error</string>
+    <string name="error_credentials_empty">Credentials are wrong or empty. You have to set:
+        Application ID, Authentification Key, Authentification Secret, Account Key in constants in App.java
+        and you have to set Sender ID in the string resources to launch application.
+        If you haven\'t them you can register new account and application at https://admin.quickblox.com
+        then put Application credentials from Overview page + Account key from https://admin.quickblox.com/account/settings</string>
+    <string name="login_data_error">Wrong login</string>
+    <string name="username_data_error">Wrong username</string>
+    <string name="error_max_opponents_count">You can select up to %d opponents</string>
+    <string name="sign_up_error">Error creating new user, please try again</string>
+    <string name="sign_in_error">Error SignIn user, please try again</string>
+    <string name="sign_in_error_with_error">Sign In error. Error</string>
+    <string name="sign_in_error_without_error">Sign In error</string>
+    <string name="logout_user_with_error">Logout user error. Error</string>
+    <string name="no_connection_error">Connection failed. Please check your internet connection.</string>
+    <string name="no_responce_timeout">No response received within reply timeout</string>
+
+    <string name="error_empty_login">Login can not be empty</string>
+    <string name="error_empty_chat_room_name">Chat room name can not be empty</string>
+    <string name="error_permission_video">You should allow Camera permission</string>
+    <string name="error_permission_audio">You should allow Microphone permission</string>
+
+    <string name="login_chat_login_error">Login Chat error. Please relogin. Error</string>
+    <string name="update_user_error">Update user error. Error</string>
+    <string name="loading_users_error">Loading users error. Error</string>
+
+    <string name="permission_unavailable">%s is not available now!</string>
+
+    <string name="field_name_user_login">User name</string>
+    <string name="field_name_user_fullname">User Full Name</string>
+
+    <string name="error_name_must_not_contain_special_characters_from_app">%1$s must contain 3 &#8212; %2$s alphanumeric Latin characters without spaces, the first char must be a letter</string>
+    <string name="pref_disconnect_time_interval_key">disconnect_time_interval</string>
+    <string name="pref_disconnect_time_interval_title">Disconnect Time Interval (10&#8211;90s)</string>
+    <string name="pref_disconnect_time_interval_default_value">10</string>
+    <integer name="pref_disconnect_time_interval_min_value">10</integer>
+    <integer name="pref_disconnect_time_interval_max_value">90</integer>
+    <integer name="pref_disconnect_time_interval_step_size">5</integer>
+    <!--Call Settings-->
+    <string name="pref_answer_time_interval_key">answer_time_interval</string>
+    <string name="pref_answer_time_interval_title">Answer Time Interval (15&#8211;90s)</string>
+    <string name="pref_answer_time_interval_default_value">60</string>
+    <integer name="pref_answer_time_interval_min_value">15</integer>
+    <integer name="pref_answer_time_interval_max_value">90</integer>
+    <integer name="pref_answer_time_interval_step_size">5</integer>
+
+
+    <string name="pref_dialing_time_interval_key">Dialing_time_interval</string>
+    <string name="pref_dialing_time_interval_title">Dialing Time Interval (3&#8211;10s)</string>
+    <string name="pref_dialing_time_interval_default_value">5</string>
+    <integer name="pref_dialing_time_interval_min_value">3</integer>
+    <integer name="pref_dialing_time_interval_max_value">10</integer>
+    <integer name="pref_dialing_time_interval_step_size">1</integer>
+
+    <string name="pref_videocodec_key">videocodec_preference</string>
+    <string name="pref_videocodec_title">Default video codec</string>
+    <string name="pref_videocodec_dlg">Select default video codec</string>
+    <string name="pref_videocodec_default">0</string>
+
+    <string name="pref_hwcodec_key">hwcodec_preference</string>
+    <string name="pref_hwcodec_title">Video codec hardware acceleration</string>
+    <string name="pref_hwcodec_default">true</string>
+
+    <string name="pref_value_enabled">Enabled</string>
+    <string name="pref_value_disabled">Disabled</string>
+
+    <string name="pref_room_server_url_key">room_server_url_preference</string>
+    <string name="pref_room_server_url_title">Room server URL.</string>
+    <string name="pref_room_server_url_dlg">Enter a room server URL.</string>
+    <string name="pref_room_server_url_default" translatable="false">https://apprtc.appspot.com</string>
+
+    <string name="pref_frame_rate_key">frame_rate</string>
+    <string name="pref_frame_rate_title">Frame Rate (0&#8211;30)</string>
+    <string name="pref_frame_rate_default">0</string>
+    <integer name="pref_frame_rate_min_value">0</integer>
+    <integer name="pref_frame_rate_max_value">30</integer>
+    <integer name="pref_frame_rate_stepSize">5</integer>
+
+    <string name="pref_displayhud_key">displayhud_preference</string>
+    <string name="pref_displayhud_title">Display call statistics.</string>
+    <string name="pref_displayhud_dlg">Display call statistics.</string>
+    <string name="pref_displayhud_default" translatable="false">false</string>
+    <string name="pref_audiocodec_key">pref_audio_codec</string>
+    <string name="pref_audiocodec_title">Default audio codec</string>
+    <string name="pref_audiocodec_def">ISAC</string>
+    <string name="pref_audiocodec_dlg">Select default audio codec</string>
+    <string name="pref_version">QuickBlox WebRTC\nBuild version 1.12</string>
+    <string name="btn_screen_capture">screenShot</string>
+    <string name="accepted">Accepted</string>
+    <string name="connection_was_lost">Connection was lost</string>
+    <string name="pref_disable_built_in_aec_key">disable_built_in_aec_preference</string>
+    <string name="pref_disable_built_in_aec_title">Disable built-in AEC</string>
+    <string name="pref_disable_built_in_aec_dlg">Disable built-in AEC</string>
+    <string name="pref_disable_built_in_aec_default">false</string>
+    <string name="pref_built_in_aec_not_available">Built-in AEC is not available</string>
+    <string name="pref_noaudioprocessing_key">audioprocessing_preference</string>
+    <string name="pref_noaudioprocessing_title">Disable audio processing</string>
+    <string name="pref_noaudioprocessing_dlg">Disable audio processing pipeline</string>
+    <string name="pref_noaudioprocessing_default">false</string>
+    <string name="pref_opensles_key">opensles_preference</string>
+    <string name="pref_opensles_title">Use OpenSL ES for audio playback</string>
+    <string name="pref_opensles_dlg">Use OpenSL ES for audio playback</string>
+    <string name="pref_opensles_default">false</string>
+    <string name="pref_resolution_key">resolution_preference</string>
+    <string name="pref_resolution_title">Video Format</string>
+    <string name="pref_resolution_dlg">Enter RTC local video resolution</string>
+    <string name="pref_resolution_default">-1</string>
+    <string name="pref_startbitratevalue_key">startbitratevalue_preference</string>
+    <string name="pref_startbitratevalue_title">Bandwidth (0&#8211;2000)</string>
+    <string name="pref_startbitratevalue_default">0</string>
+    <integer name="pref_startbitratevalue_min_value">0</integer>
+    <integer name="pref_startbitratevalue_max_value">2000</integer>
+    <integer name="pref_startbitratevalue_step_size">100</integer>
+    <string name="pref_manage_speakerphone_by_proximity_key">manage_speakerphone_by_proximity_preference</string>
+    <string name="pref_manage_speakerphone_by_proximity_title">Manage Speaker Phone by Proximity Sensor</string>
+    <string name="pref_manage_speakerphone_by_proximity_dlg">Manage Speaker Phone by Proximity Sensor</string>
+    <string name="pref_manage_speakerphone_by_proximity_summary">Enables managing of Speaker Phone by Proximity Sensor for Audio calls</string>
+    <string name="pref_manage_speakerphone_by_proximity_default">false</string>
+    <!-- Settings strings. -->
+    <string name="title_video_category">Video</string>
+    <string name="title_call_settings_category">Call Settings</string>
+    <string name="versionName">Version Name</string>
+    <string name="text_push_notification_message">"%s is calling you"</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="miSettings">Mi Settings</string>
+    <string name="additionalOverlayPermissionReq">Additional Overlay Permission Required</string>
+    <string name="pleaseMakeSureThatAllAdditionalPermissionGranted">Please make sure that all additional permissions granted</string>
+    <string name="youMightMissCallsWhileAppBack">You might miss calls while your application in background</string>
+    <string name="overlayPermissionRequired">Overlay Permission Required</string>
+    <string name="toReceiveCallsBackgroundPermission">To receive calls in background - \nPlease Allow overlay permission in Android Settings</string>
+    <string name="iamSure">I\'m sure</string>
+    <string name="no">No</string>
+    <string name="data_secure">Trust: The foundation upon which MY REHAB CARE (MRC) is built \n\n
+
+Security-\n
+Safety of your data is our top priority\n\n
+
+Multi-level security checks\n
+Multiple data backups\n
+Stringent data privacy policies\n
+256-bit encryption
+
+ISO 27001
+ISO 9001-2008
+certified
+
+HIPAA compliant data centers
+
+ISO
+We’re ISO 27001 certified
+BSI — a global authority in information security standards — has certified that MRC ensures confidentiality, availability and integrity of its information assets.
+Secure organisational practices ensured by awareness and stringent access controls
+Secure processes through strong administrative controls and monitoring
+Secure systems with strong technical measures and frequent vulnerability assessments and penetration testing
+Data security for patients
+-	Your data is for your eyes only
+-	No one at MRC can view your data
+-	We do not send you messages without your permission
+-	We send promotional messages with an option to opt-out any time
+-	MRC doesn’t share data with any third party
+Data security for doctors
+-	MRC does not have access to read or view your practice data
+-	We never send marketing promotions to your walk-in patients
+-	Data is NEVER shared with any third party
+-	Doctors are in full control to decide what communication is to be sent to their patients
+-	Practices cannot see each other’s data
+-	We follow stringent data policies so that it’s not compromised at any step
+secure platform
+Secure platform for healthcare providers
+Each MRC product is designed to protect data security and privacy.
+We never send promotions to your walk-ins
+We never send promotions to your walk-ins
+We never reach out to your walk-in patients or send any promotional communication to them, as per our exhaustive privacy policy. The only way for any patient to receive any promotion from us is if they visit www.myrehabcare.in or download our app independently and give us permission to contact them. MRC does not have any access to your patient database stored in MRC server.
+Your data has multiple encrypted backups
+Your data has multiple encrypted backups
+All data is backed up and versioned multiple times at secure locations across the world. We also employ a smart feature called point-in-time recovery to retrieve the data from a specific time period.
+
+We don’t sell your data
+
+We are fully aware of the sensitivity of your healthcare information and take data privacy extremely seriously. We go to great lengths to protect it and never ever sell it to anyone.
+We never mix doctors’ data with patients’ data
+We never mix doctors’ data with patients’ data
+Our platform uses industry-grade firewalls and follows a stringent privacy policy specially designed to keep providers’ data separate from patients’ data.
+Secure place for your health data
+Keeping your data safe is at the core of every decision we make at MRC.
+
+Secure platform-
+Your data is for your eyes only
+
+Anything that you share on MRC is completely private. No one else can access it. We give an unprecedented level of control so that only you can decide who sees what.
+Everything is protected with 256-bit encryption
+
+MRC uses world-class standards to shield your data from unauthorised intrusion. It is always protected with multiple layers of encryption (256-bit encryption over the network).
+2-factor authentication prevents unauthorised access
+
+Extra measures are good. Therefore, we let you enable 2-factor authentication so that your data is absolutely secure and no one else can access it except you.
+Remote logout fends off suspicious logins
+Remote logout fends off suspicious logins
+Whenever a new device logs into your account, MRC notifies you immediately, so that you can review the activity and log out if needed.
+
+For any kind of 24/7 support or queries, please email at myrehabcare@gmail.com
+    </string>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LocationActivity">
+
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:layout_width="match_parent"
+        style="@style/MaterialSearchBarLight"
+        app:mt_speechMode="false"
+        android:id="@+id/mater"
+        android:elevation="5dp"
+        android:outlineProvider="bounds"
+        android:layout_margin="16dp"
+        app:mt_maxSuggestionsCount="10"
+        app:mt_hint="Search a Place"
+        app:mt_placeholder="Search a Place"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_pin"
+        android:translationY="-20dp"
+        android:layout_height="wrap_content"/>
+
+    <!--  <LinearLayout
+          android:id="@+id/linearLayout4"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="#EFEDED"
+          app:layout_constraintTop_toTopOf="parent">
+
+          <fragment
+              android:id="@+id/place_autocomplete"
+              android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+
+      </LinearLayout>-->
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#fff"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_place" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:autoSizeMaxTextSize="18sp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center_vertical"
+                android:text="JS Nagar, Mumbai"
+                android:textColor="@color/colorBlack" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/submit_bt"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20sp"
+            android:autoSizeMaxTextSize="22sp"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/bt_bg1"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

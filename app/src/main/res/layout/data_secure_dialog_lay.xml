@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="How we keep your data secure"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/color_blue_accent"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+            <View
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+        <TextView
+            android:text="@string/data_secure"
+            android:textSize="14sp"
+            android:textColor="@color/grey"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/ok"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:text="OK"
+        android:padding="10dp"
+        android:backgroundTint="@color/color_blue_accent"
+        android:background="@drawable/custm_corner_bg"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

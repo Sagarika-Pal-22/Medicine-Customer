@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dp"
+    android:backgroundTint="#1313c3"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:textColor="@color/colorTextWhite"
+    android:text="Next"
+    android:visibility="visible"
+    android:id="@+id/next_bt"
+    android:textAllCaps="false"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:layout_height="wrap_content">
+
+</Button>

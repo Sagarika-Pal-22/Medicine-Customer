@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.CuntactUsActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Contact Us"
+                android:gravity="center"
+                android:textColor="@color/colorTextAccent"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@drawable/ic_chat"
+                android:layout_width="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="200dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Visit out office"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorTextNormal"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:drawableStart="@drawable/ic_place_red"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:textColor="@color/colorTextNormal"
+                android:textStyle="bold"
+                android:text="SKN complex,9th cross, 2nd floor, above Life Care Medicals, JP nagar 1st phase, Opposite Raj Shekha, Bangalore -560078"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Call us"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorTextNormal"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:drawableStart="@drawable/ic_phone_red"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorTextNormal"
+                android:autoLink="all"
+                android:textStyle="bold"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:drawablePadding="10dp"
+                android:text="9066990059 / 9066411444"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Mail us"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorTextNormal"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:drawableStart="@drawable/ic_mail"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorTextNormal"
+                android:textStyle="bold"
+                android:drawablePadding="10dp"
+                android:autoLink="email"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:text="info@myrehabcare.in"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_height="wrap_content">
+
+
+
+            </TextView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
