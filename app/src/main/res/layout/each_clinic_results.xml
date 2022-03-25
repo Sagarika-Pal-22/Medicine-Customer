@@ -38,14 +38,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:orientation="vertical"
+                android:layout_marginHorizontal="15dp"
                 android:layout_height="match_parent">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:text="My Dental Clinic"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     android:id="@+id/nameeee"
-                    android:layout_marginStart="15dp"
+                    android:typeface="serif"
                     android:textColor="@color/colorBlack"
                     android:layout_marginEnd="15dp"
                     android:layout_marginTop="15dp"
@@ -53,17 +54,14 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginEnd="15dp"
                     android:layout_marginTop="10dp"
-                    android:gravity="center"
-                    android:autoSizeTextType="uniform"
+                    android:gravity="center_vertical"
+                    android:typeface="serif"
+                    android:textSize="14sp"
                     android:id="@+id/addresss"
-                    android:autoSizeMaxTextSize="16sp"
-                    android:drawablePadding="10dp"
                     android:text="134, Mulund, Mumbai"
-                    android:drawableEnd="@drawable/ic_phone_red"
-                    android:drawableStart="@drawable/ic_top_arrow"
+                    android:drawableEnd="@drawable/ic_phone_call"
+                    android:drawableTint="@color/colorPrimaryDark"
                     android:layout_height="30dp"/>
 
             </LinearLayout>

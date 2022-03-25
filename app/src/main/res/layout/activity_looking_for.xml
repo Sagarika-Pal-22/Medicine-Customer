@@ -28,11 +28,12 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:layout_marginTop="20dp"
-                android:text="Are you looking for"
+                android:text="What are you looking for ?"
                 android:layout_marginBottom="10dp"
                 android:textColor="@color/colorTextPrimary"
                 android:textSize="20sp"
                 android:textStyle="bold"
+                android:typeface="serif"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />

@@ -22,6 +22,7 @@
             android:id="@+id/text_caller_name"
             style="@style/WrapContent"
             android:ellipsize="end"
+            android:typeface="serif"
             android:maxLines="1"
             android:paddingTop="@dimen/padding_top_large"
             android:textColor="@color/white"
@@ -31,6 +32,7 @@
             android:id="@+id/timer_call"
             style="@style/WrapContent"
             android:layout_gravity="center"
+            android:typeface="serif"
             android:layout_margin="@dimen/margin_common"
             android:textColor="@color/colorWhiteTrans"
             android:textSize="@dimen/text_size"
@@ -41,6 +43,7 @@
         <TextView
             android:id="@+id/text_also_on_call"
             style="@style/WrapContent"
+            android:typeface="serif"
             android:layout_marginTop="24dp"
             android:text="@string/also_on_call"
             android:textColor="@color/colorWhiteTrans"
@@ -52,6 +55,7 @@
             android:layout_marginTop="16dp"
             android:gravity="center"
             android:textColor="@color/white"
+            android:typeface="serif"
             android:textSize="@dimen/other_inc_users_text_size"
             tools:text="@string/user_list_on_call" />
     </LinearLayout>

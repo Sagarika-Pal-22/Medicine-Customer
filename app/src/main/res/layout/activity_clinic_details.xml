@@ -14,10 +14,11 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:text="my dental clinic"
+            android:text="My Dental Clinic"
             android:textColor="@color/colorPrimaryDark2"
-            android:textSize="22sp"
-            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:layout_marginTop="30dp"
             android:id="@+id/clinic_name"
             android:textStyle="bold"
             android:layout_marginEnd="2dp"
@@ -42,87 +43,133 @@
         </androidx.cardview.widget.CardView>
 
 
-        <TextView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:text="Address"
-            android:textColor="@color/colorPrimaryDark2"
-            android:textSize="16sp"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="2dp"
-            android:layout_marginStart="20dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginHorizontal="15dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/clinic_adrs"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight=".5"
+                        android:text="Address:"
+                        android:typeface="serif"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/colorPrimaryDark2"
+                        android:textSize="14sp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:text="M-104, Sai building, Mulund west, Mumbai-67"
+                        android:textSize="14sp"
+                        android:typeface="serif"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:id="@+id/clinic_address"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:text="M-104, Sai building, Mulund west, Mumbai-67"
-            android:textSize="16sp"
-            android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:id="@+id/clinic_address"
-            android:drawablePadding="10dp"
-            android:paddingStart="10dp"
-            android:drawableStart="@drawable/ic_place_red"
-            android:layout_marginEnd="2dp"
-            android:layout_marginStart="20dp"
-            android:layout_height="wrap_content"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="10dp"
+                    android:background="#F1F1F3"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:text="Visiting Hours"
-            android:textColor="@color/colorPrimaryDark2"
-            android:textSize="16sp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="2dp"
-            android:layout_marginStart="20dp"
-            android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/visiting_hrs"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight=".5"
+                        android:text="Visiting Hours:"
+                        android:typeface="serif"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/colorPrimaryDark2"
+                        android:textSize="14sp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:text="10:00 am - 6:00pm"
+                        android:textSize="14sp"
+                        android:typeface="serif"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:id="@+id/clinic_visiting_hours"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:text="10:00 am - 6:00pm"
-            android:textSize="16sp"
-            android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:drawablePadding="10dp"
-            android:id="@+id/clinic_visiting_hours"
-            android:paddingStart="10dp"
-            android:drawableStart="@drawable/ic_place_red"
-            android:layout_marginEnd="2dp"
-            android:layout_marginStart="20dp"
-            android:layout_height="wrap_content"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="10dp"
+                    android:background="#F1F1F3"/>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="27dp"
+                        android:src="@drawable/doctor_icon"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight=".5"
+                        android:text="Doctors:"
+                        android:typeface="serif"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/colorPrimaryDark2"
+                        android:textSize="14sp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:text="Jatin Kulkarni, Raj Shah"
+                        android:textSize="14sp"
+                        android:typeface="serif"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:id="@+id/clinic_doctors"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:text="Doctors"
-            android:textColor="@color/colorPrimaryDark2"
-            android:textSize="16sp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="2dp"
-            android:layout_marginStart="20dp"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:text="Jatin Kulkarni, Raj Shah"
-            android:textSize="16sp"
-            android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:drawablePadding="10dp"
-            android:paddingStart="10dp"
-            android:id="@+id/clinic_doctors"
-            android:drawableStart="@drawable/ic_place_red"
-            android:layout_marginEnd="2dp"
-            android:layout_marginStart="20dp"
-            android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
         <Button
             android:drawableTint="@color/white"
-            android:paddingLeft="15dp"
+            android:paddingLeft="25dp"
             android:drawableLeft="@drawable/ic_phone_call"
             android:layout_width="match_parent"
             android:layout_marginStart="50dp"
             android:layout_marginEnd="50dp"
             android:textColor="@color/colorWhite"
+            android:typeface="serif"
+            android:paddingRight="20dp"
             android:textAllCaps="false"
             android:textSize="18sp"
             android:paddingTop="15dp"

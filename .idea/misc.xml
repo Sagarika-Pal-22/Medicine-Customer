@@ -3,8 +3,69 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_dr_profile.xml" value="0.15" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/drawable/grey_box.xml" value="0.12" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/drawable/ic_comm.xml" value="0.1205" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/drawable/ic_menu.xml" value="0.1205" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_appointment_confirmed.xml" value="0.1675925925925926" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_base.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_boock_appointment_for.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_caller.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_chat.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_clinic_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_clinic_results.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_cuntact_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_disclaimer.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_dr_feedback.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_dr_profile.xml" value="0.18" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_fav.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_forgot_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_form.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_home.xml" value="0.17962962962962964" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_loader.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_location.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_looking_for.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_my_appointments.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_my_doctors.xml" value="0.20416666666666666" />
         <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_my_profile.xml" value="0.15" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_my_transaction.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_nothing_found.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_oops.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_permissions.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_schedule.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_video_call_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_voice_call.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/activity_voice_call_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/connection_popup.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/custom_push_notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/data_secure_dialog_lay.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/dialog_coupon_code.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/dialog_location.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/download_prescription_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/each_clinic_results.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/each_date.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/each_loocking_for.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/each_my_appointments.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/each_my_doctors.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/each_transaction.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/fragment_audio_conversation.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/fragment_income_call.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/fragment_item_screen_share.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/fragment_pager.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/fragment_video_conversation.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/img_slider_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/linear_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/list_item_opponent_from_call.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/preference_version.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/set_location_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/simpel_button.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/toolbar_call.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/view_action_buttons_conversation_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/view_action_buttons_incoming_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/view_for_preference.xml" value="0.20416666666666666" />
+        <entry key="..\:/ArcticFox_ Android_Projects/MRC Customer/app/src/main/res/layout/view_outgoing_screen.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

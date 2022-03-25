@@ -2,8 +2,6 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:backgroundTint="@color/colorLightGrey2"
-    android:background="@drawable/custm_corner_bg"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
  <LinearLayout
@@ -33,7 +31,8 @@
             android:padding="2dp"
             android:layout_gravity="center"
             android:gravity="center|start"
-            android:textStyle="bold|italic"
+            android:textStyle="bold"
+            android:typeface="serif"
             android:textSize="14sp"
             android:textColor="@color/colorBlack"
             android:layout_width="match_parent"
@@ -44,7 +43,8 @@
              android:padding="2dp"
              android:layout_gravity="center"
              android:gravity="center|start"
-             android:textStyle="italic"
+             android:textStyle="normal"
+             android:typeface="serif"
              android:textSize="12sp"
              android:textColor="@color/colorGrey"
              android:layout_width="match_parent"
@@ -57,10 +57,17 @@
          android:layout_weight="0"
          android:padding="2dp"
          android:gravity="center"
+         android:typeface="serif"
          android:text="12:03 PM"
          android:textSize="10sp"
          android:textColor="@color/colorGrey"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"/>
  </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="5dp"
+        android:background="#C5C1C1"/>
 </LinearLayout>

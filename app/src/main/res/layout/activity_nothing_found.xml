@@ -24,6 +24,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Oops!"
+        android:typeface="serif"
         android:textColor="#333"
         android:textSize="40dp"
         android:textStyle="bold"
@@ -44,10 +45,11 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Sorry, No MRC Expert is available right now at the moment, Kindly try after sometime Or Contact us at 9066990059/9066411444"
-            android:textColor="#333"
+            android:typeface="serif"
             android:layout_marginEnd="20dp"
             android:layout_marginStart="20dp"
-            android:textSize="20sp"
+            android:textSize="14sp"
+            android:lineSpacingExtra="5dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -60,8 +62,9 @@
             android:textStyle="bold"
             android:textColor="@color/colorWhite"
             android:textAllCaps="false"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
             android:textSize="18sp"
+            android:typeface="serif"
             android:background="@drawable/bt_bg2"
             android:layout_height="55dp"/>
 

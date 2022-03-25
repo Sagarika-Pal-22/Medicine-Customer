@@ -60,6 +60,7 @@
             android:layout_width="wrap_content"
             android:text="Search Doctors"
             android:textSize="20sp"
+            android:typeface="serif"
             android:layout_weight="2"
             android:textStyle="bold"
             android:textColor="@color/colorTextPrimary"
@@ -73,17 +74,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:text="Filter by"
+                android:typeface="serif"
                 android:drawableStart="@drawable/ic_filter"
+                android:drawableTint="@color/colorPrimaryDark"
                 android:drawablePadding="5dp"
                 android:textSize="16sp"
-                android:textColor="@color/colorText"
+                android:textColor="@color/colorPrimaryDark"
                 android:layout_height="wrap_content"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:text=" Name"
+                android:typeface="serif"
                 android:textSize="16sp"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/colorPrimaryDark"
                 android:layout_height="wrap_content"/>
 
             <ImageView
@@ -91,7 +95,8 @@
                 android:layout_marginStart="5dp"
                 android:id="@+id/byname"
                 android:src="@drawable/ic_arrow_downward"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                app:tint="@color/colorPrimaryDark" />
 
 
 

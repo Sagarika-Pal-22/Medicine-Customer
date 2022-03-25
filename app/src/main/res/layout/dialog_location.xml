@@ -12,10 +12,10 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:layout_width="40dp"
+            android:layout_width="15dp"
             android:id="@+id/closeIv"
             android:background="@drawable/ic_close"
-            android:layout_height="40dp"/>
+            android:layout_height="15dp"/>
 
     </LinearLayout>
 
@@ -25,7 +25,8 @@
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:textColor="@color/colorBlack"
-        android:textSize="20sp"
+        android:textSize="14sp"
+        android:typeface="serif"
         android:id="@+id/addresss"
         android:drawablePadding="15dp"
         android:drawableStart="@drawable/ic_place"
@@ -51,6 +52,7 @@
             android:layout_width="120dp"
             android:background="@drawable/bt_bg2"
             android:text="Submit"
+            android:typeface="serif"
             android:textSize="13sp"
             android:id="@+id/submit"
             android:textAllCaps="false"
@@ -66,6 +68,7 @@
             android:layout_width="120dp"
             android:background="@drawable/bt_bg2"
             android:text="Change address"
+            android:typeface="serif"
             android:id="@+id/changeAddress"
             android:textAllCaps="false"
             android:textSize="13sp"

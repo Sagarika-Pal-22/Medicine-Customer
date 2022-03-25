@@ -19,6 +19,7 @@
             android:text="Leave Your Feedback"
             android:layout_marginTop="20dp"
             android:textSize="20sp"
+            android:typeface="serif"
             android:layout_marginStart="18dp"
             android:textStyle="bold"
             android:textColor="@color/colorPrimaryDark"
@@ -41,6 +42,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:id="@+id/dr_profile_image"
+                    android:src="@drawable/profile_shpe"
                     android:layout_height="match_parent"/>
 
 
@@ -59,6 +61,7 @@
                     android:autoSizeTextType="uniform"
                     android:textColor="@color/colorBlack"
                     android:textStyle="bold"
+                    android:typeface="serif"
                     android:autoSizeMaxTextSize="22sp"
                     android:id="@+id/dr_name"
                     android:autoSizeMinTextSize="16sp"
@@ -71,6 +74,7 @@
                     android:textSize="18sp"
                     android:layout_marginTop="5dp"
                     android:text="Physician"
+                    android:typeface="serif"
                     android:id="@+id/dr_type"
                     android:layout_height="wrap_content"/>
 
@@ -120,6 +124,7 @@
                 android:hint="Write your feedback"
                 android:gravity="top"
                 android:padding="10dp"
+                android:typeface="serif"
                 android:id="@+id/rev_et"
                 android:background="@drawable/edit_bg3"
                 android:layout_height="150dp"/>
@@ -131,6 +136,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginEnd="2dp"
                 android:text="Submit"
+                android:typeface="serif"
                 android:id="@+id/submit_bt"
                 android:textAllCaps="false"
                 android:textColor="@color/colorWhite"
@@ -173,6 +179,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginEnd="25dp"
             android:text="Download Prespcription"
+            android:typeface="serif"
             android:textAllCaps="false"
             android:textColor="@color/colorWhite"
             android:paddingEnd="30dp"

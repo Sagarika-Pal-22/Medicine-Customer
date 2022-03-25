@@ -56,6 +56,7 @@
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layoutAnimation="@anim/layout_down_to_up"
         android:layout_gravity="bottom"
         android:background="#fff"
         android:orientation="vertical">
@@ -72,18 +73,20 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/ic_place" />
+                android:src="@drawable/ic_my_location"
+                app:tint="@color/colorPrimaryDark" />
 
             <TextView
                 android:id="@+id/address"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:typeface="serif"
                 android:layout_marginStart="10dp"
                 android:autoSizeMaxTextSize="18sp"
                 android:autoSizeTextType="uniform"
                 android:gravity="center_vertical"
                 android:text="JS Nagar, Mumbai"
-                android:textColor="@color/colorBlack" />
+                android:textColor="@color/colorPrimaryDark" />
 
         </LinearLayout>
 
@@ -100,6 +103,7 @@
             android:autoSizeTextType="uniform"
             android:background="@drawable/bt_bg1"
             android:text="Submit"
+            android:typeface="serif"
             android:textAllCaps="false"
             android:textColor="@color/colorWhite" />
 

@@ -183,7 +183,9 @@ public class FormActivity extends AppCompatActivity implements PaymentResultList
                 schedule_date = "";
 
                 visit_type = "1";
-                startPayment();
+//                startPayment();
+                startActivity(new Intent(activity, LoaderActivity.class).putExtra("service_type", service_type).putExtra("category", category).putExtra("name", name).putExtra("age", age).putExtra("gender", gender).putExtra("problem", problem).putExtra("visit_type", visit_type).putExtra("schedule_date", schedule_date).putExtra("schedule_time", schedule_time).putExtra("fees", fees).putExtra("discount", discount).putExtra("address", address).putExtra("prescriptionImagePath",prescriptionImagePath));
+
             }
         });
 

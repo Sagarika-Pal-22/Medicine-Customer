@@ -16,14 +16,16 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         app:cardCornerRadius="10dp"
+        android:layout_marginHorizontal="10dp"
+        app:cardBackgroundColor="#E7F5FA"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:background="#80A3B3BD"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layoutAnimation="@anim/layout_slide_right">
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -35,8 +37,10 @@
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:text="Dr. Name"
+                    android:typeface="serif"
                     android:textSize="16sp"
                     android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
                     android:id="@+id/dr_name"
                     android:layout_marginStart="20dp"
                     android:layout_height="wrap_content"/>
@@ -45,6 +49,7 @@
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical|end"
                     android:text="₹400"
+                    android:typeface="serif"
                     android:id="@+id/amount"
                     android:textSize="16sp"
                     android:textColor="#F70808"

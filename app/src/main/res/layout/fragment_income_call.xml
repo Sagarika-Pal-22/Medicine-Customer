@@ -36,9 +36,10 @@
                 android:id="@+id/text_caller_name"
                 style="@style/WrapContent"
                 android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/progress_bar_opponent_name"
                 android:ellipsize="end"
-                android:layout_centerVertical="true"
+                android:typeface="serif"
                 android:maxLines="1"
                 android:textColor="@color/white"
                 android:textSize="@dimen/caller_name_text_size"
@@ -49,6 +50,7 @@
             android:id="@+id/call_type"
             style="@style/WrapContent"
             android:layout_marginTop="8dp"
+            android:typeface="serif"
             android:text="@string/text_incoming_audio_call"
             android:textColor="@color/colorWhiteTrans"
             android:textSize="@dimen/incoming_call_type_text_size" />
@@ -58,6 +60,7 @@
             style="@style/WrapContent"
             android:layout_marginTop="48dp"
             android:text="@string/also_on_call"
+            android:typeface="serif"
             android:textColor="@color/colorWhiteTrans"
             android:textSize="@dimen/also_on_call_text_size" />
 
@@ -66,6 +69,7 @@
             style="@style/WrapContent"
             android:layout_marginTop="10dp"
             android:gravity="center"
+            android:typeface="serif"
             android:textColor="@color/white"
             android:textSize="@dimen/other_inc_users_text_size"
             tools:text="@string/user_list_on_call" />

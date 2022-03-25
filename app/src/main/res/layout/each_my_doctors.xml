@@ -2,20 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layoutAnimation="@anim/layout_down_to_up"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_marginEnd="5dp"
-        android:layout_marginStart="5dp"
         android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        app:cardBackgroundColor="#E7F5FA"
         app:cardCornerRadius="20dp"
         android:id="@+id/card_bg"
-        android:layout_marginBottom="5dp"
         android:layout_height="108dp">
 
         <FrameLayout
-            android:background="#80E4E6E8"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -32,6 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_marginStart="120dp"
                 android:textSize="16sp"
+                android:typeface="serif"
                 android:id="@+id/dr_name_tv"
                 android:textColor="@color/colorText"
                 android:layout_marginTop="10dp"
@@ -42,6 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_marginStart="120dp"
                 android:textSize="16sp"
+                android:typeface="serif"
                 android:id="@+id/dr_type_tv"
                 android:textStyle="bold"
                 android:textColor="@color/colorTextAccent"
@@ -65,10 +66,10 @@
                 android:layout_marginStart="120dp"
                 android:layout_height="wrap_content"/>
 
-            <ImageView
+           <!-- <ImageView
                 android:layout_width="match_parent"
                 android:background="@drawable/my_doctors_bg"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"/>-->
 
 
             <com.like.LikeButton

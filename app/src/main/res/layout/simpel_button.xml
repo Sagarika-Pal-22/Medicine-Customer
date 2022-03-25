@@ -6,6 +6,7 @@
     android:paddingBottom="15dp"
     android:textColor="@color/colorTextWhite"
     android:text="Next"
+    android:typeface="serif"
     android:visibility="visible"
     android:id="@+id/next_bt"
     android:textAllCaps="false"

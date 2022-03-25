@@ -20,6 +20,7 @@
         android:textStyle="bold"
         android:textSize="28sp"
         android:text="Oops!"
+        android:typeface="serif"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
@@ -28,32 +29,38 @@
     <TextView
         android:gravity="center"
         android:layout_marginHorizontal="40dp"
-        android:textColor="@color/black"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:text="Sorry, No MRC Expert is available right now at the moment, Kindly go to MY APPOINTMENT section and try after sometime.For any kind of support, please contact us 24/7 at 9066990059 / 9066411444"
         android:layout_marginTop="20dp"
+        android:lineSpacingExtra="5dp"
+        android:typeface="serif"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <TextView
             android:id="@+id/tv_home"
-            android:textAllCaps="false"
-            android:text="Home"
-            android:textSize="16sp"
-            android:textColor="@color/colorWhite"
-            android:background="@color/color_blue_accent"
-            android:layout_centerHorizontal="true"
-            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:gravity="center"
+            android:layout_centerHorizontal="true"
             android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/color_blue_accent"
+            android:gravity="center"
             android:paddingHorizontal="30dp"
             android:paddingVertical="15dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:text="Home"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:typeface="serif" />
     </RelativeLayout>
 
 </LinearLayout>
